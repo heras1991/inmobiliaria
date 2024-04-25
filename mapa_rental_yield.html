@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ee59bb92de3a8da016323bebbe659b1c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ee59bb92de3a8da016323bebbe659b1c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ee59bb92de3a8da016323bebbe659b1c = L.map(
+                "map_ee59bb92de3a8da016323bebbe659b1c",
+                {
+                    center: [39.94021100181818, -4.01194699090909],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_78b78f2abe947eb3186d595dc96c8faf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_78b78f2abe947eb3186d595dc96c8faf.addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+            var circle_marker_d8bce1d7a1d113fa7d1d8e9e3f0b2574 = L.circleMarker(
+                [39.941823, -4.0188993],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e96d13", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_9ddc7256e3a9f50b7beab78804fc1661 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b886b624e0280b2459676257037de6c5 = $(`<div id="html_b886b624e0280b2459676257037de6c5" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>6.67%</b><br>Average Monthly Rent: <b>611€</b><br>Price: <b>110,000€</b><br>Rooms: <b>8</b><br>Area: <b>460 m²</b><br><a href='https://www.idealista.com/inmueble/93990256/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_9ddc7256e3a9f50b7beab78804fc1661.setContent(html_b886b624e0280b2459676257037de6c5);
+            
+        
+
+        circle_marker_d8bce1d7a1d113fa7d1d8e9e3f0b2574.bindPopup(popup_9ddc7256e3a9f50b7beab78804fc1661)
+        ;
+
+        
+    
+    
+            var circle_marker_ffe35fb16c1e4334642059b903dfa573 = L.circleMarker(
+                [39.9396975, -4.0180427],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c4161c", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_f313d6640a3db02166c31c8a761043af = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2e7c0203c4529970eef22003e6e8bc35 = $(`<div id="html_2e7c0203c4529970eef22003e6e8bc35" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>2.30%</b><br>Average Monthly Rent: <b>690€</b><br>Price: <b>359,900€</b><br>Rooms: <b>4</b><br>Area: <b>369 m²</b><br><a href='https://www.idealista.com/inmueble/1934372/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_f313d6640a3db02166c31c8a761043af.setContent(html_2e7c0203c4529970eef22003e6e8bc35);
+            
+        
+
+        circle_marker_ffe35fb16c1e4334642059b903dfa573.bindPopup(popup_f313d6640a3db02166c31c8a761043af)
+        ;
+
+        
+    
+    
+            var circle_marker_c6a454b1dc78ea7fdb2842f5266ac408 = L.circleMarker(
+                [39.9498617, -3.9884784],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ed798", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_aa51abab517a80b13a78199ad211b8cf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b0cb234b2330cffab2b84ba74456f860 = $(`<div id="html_b0cb234b2330cffab2b84ba74456f860" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>11.09%</b><br>Average Monthly Rent: <b>920€</b><br>Price: <b>99,600€</b><br>Rooms: <b>2</b><br>Area: <b>78 m²</b><br><a href='https://www.idealista.com/inmueble/101012743/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_aa51abab517a80b13a78199ad211b8cf.setContent(html_b0cb234b2330cffab2b84ba74456f860);
+            
+        
+
+        circle_marker_c6a454b1dc78ea7fdb2842f5266ac408.bindPopup(popup_aa51abab517a80b13a78199ad211b8cf)
+        ;
+
+        
+    
+    
+            var circle_marker_835fad84af0bcb9fcffea01857c7e769 = L.circleMarker(
+                [39.9435701, -4.0145799],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ed7316", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_a3cb61941de02f245a5075a8b963b5a5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4da7f25c95c09207e9c363213a9f3a1f = $(`<div id="html_4da7f25c95c09207e9c363213a9f3a1f" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>6.86%</b><br>Average Monthly Rent: <b>600€</b><br>Price: <b>105,000€</b><br>Rooms: <b>2</b><br>Area: <b>89 m²</b><br><a href='https://www.idealista.com/inmueble/103096510/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_a3cb61941de02f245a5075a8b963b5a5.setContent(html_4da7f25c95c09207e9c363213a9f3a1f);
+            
+        
+
+        circle_marker_835fad84af0bcb9fcffea01857c7e769.bindPopup(popup_a3cb61941de02f245a5075a8b963b5a5)
+        ;
+
+        
+    
+    
+            var circle_marker_2986ebc8afa206133cac3e066ecd8f46 = L.circleMarker(
+                [39.9494254, -3.9880293],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006328", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_4583ace4e1d48c7577ea69733121ba1d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b6eb89e485d1c42f82bdda0a84600aed = $(`<div id="html_b6eb89e485d1c42f82bdda0a84600aed" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>17.81%</b><br>Average Monthly Rent: <b>920€</b><br>Price: <b>62,000€</b><br>Rooms: <b>1</b><br>Area: <b>68 m²</b><br><a href='https://www.idealista.com/inmueble/103944122/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_4583ace4e1d48c7577ea69733121ba1d.setContent(html_b6eb89e485d1c42f82bdda0a84600aed);
+            
+        
+
+        circle_marker_2986ebc8afa206133cac3e066ecd8f46.bindPopup(popup_4583ace4e1d48c7577ea69733121ba1d)
+        ;
+
+        
+    
+    
+            var circle_marker_e0ab8a860707bef142d27bd4e29e813c = L.circleMarker(
+                [39.9397274, -4.0189847],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fecf67", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_9958e71caff468ce516ee980904b99af = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cc7da8fa6119e96370a310395a1e54d0 = $(`<div id="html_cc7da8fa6119e96370a310395a1e54d0" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>9.71%</b><br>Average Monthly Rent: <b>720€</b><br>Price: <b>89,000€</b><br>Rooms: <b>2</b><br>Area: <b>101 m²</b><br><a href='https://www.idealista.com/inmueble/99320113/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_9958e71caff468ce516ee980904b99af.setContent(html_cc7da8fa6119e96370a310395a1e54d0);
+            
+        
+
+        circle_marker_e0ab8a860707bef142d27bd4e29e813c.bindPopup(popup_9958e71caff468ce516ee980904b99af)
+        ;
+
+        
+    
+    
+            var circle_marker_467d2022c7df318514bb0c6ec0da22d7 = L.circleMarker(
+                [39.9397795, -4.0190901],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fecf67", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_f9be8e906ab194744342bb7ecc5ab4cd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2546fb9abb63f42b21341e827145fc61 = $(`<div id="html_2546fb9abb63f42b21341e827145fc61" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>9.71%</b><br>Average Monthly Rent: <b>720€</b><br>Price: <b>89,000€</b><br>Rooms: <b>2</b><br>Area: <b>85 m²</b><br><a href='https://www.idealista.com/inmueble/101182614/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_f9be8e906ab194744342bb7ecc5ab4cd.setContent(html_2546fb9abb63f42b21341e827145fc61);
+            
+        
+
+        circle_marker_467d2022c7df318514bb0c6ec0da22d7.bindPopup(popup_f9be8e906ab194744342bb7ecc5ab4cd)
+        ;
+
+        
+    
+    
+            var circle_marker_40abf4dabaa09b3e103be90292fd6112 = L.circleMarker(
+                [39.9389887, -4.017103],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e96d13", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_73e1deea7600ec55c79ed21582be786f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_371a24eef14c5dc2a052d71bc527712e = $(`<div id="html_371a24eef14c5dc2a052d71bc527712e" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>6.64%</b><br>Average Monthly Rent: <b>774€</b><br>Price: <b>140,000€</b><br>Rooms: <b>2</b><br>Area: <b>93 m²</b><br><a href='https://www.idealista.com/inmueble/26662851/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_73e1deea7600ec55c79ed21582be786f.setContent(html_371a24eef14c5dc2a052d71bc527712e);
+            
+        
+
+        circle_marker_40abf4dabaa09b3e103be90292fd6112.bindPopup(popup_73e1deea7600ec55c79ed21582be786f)
+        ;
+
+        
+    
+    
+            var circle_marker_64277e54808fac291a50187fcf71115f = L.circleMarker(
+                [39.9397004, -4.0257024],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e2650f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_3a46afb03d6b485bffda97dacb0291b6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c4a0ff08d2048e6718f87583866b145b = $(`<div id="html_c4a0ff08d2048e6718f87583866b145b" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>6.38%</b><br>Average Monthly Rent: <b>688€</b><br>Price: <b>129,500€</b><br>Rooms: <b>2</b><br>Area: <b>48 m²</b><br><a href='https://www.idealista.com/inmueble/99767947/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_3a46afb03d6b485bffda97dacb0291b6.setContent(html_c4a0ff08d2048e6718f87583866b145b);
+            
+        
+
+        circle_marker_64277e54808fac291a50187fcf71115f.bindPopup(popup_3a46afb03d6b485bffda97dacb0291b6)
+        ;
+
+        
+    
+    
+            var circle_marker_90dee7943e7d795bf646d56ad92f1b62 = L.circleMarker(
+                [39.943133, -4.0184063],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e1640e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_9017579a8a61b740890a69e31f2e1c5e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_305842a741ca3630e001ca3523f86e09 = $(`<div id="html_305842a741ca3630e001ca3523f86e09" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>6.34%</b><br>Average Monthly Rent: <b>480€</b><br>Price: <b>90,800€</b><br>Rooms: <b>2</b><br>Area: <b>95 m²</b><br><a href='https://www.idealista.com/inmueble/103454168/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_9017579a8a61b740890a69e31f2e1c5e.setContent(html_305842a741ca3630e001ca3523f86e09);
+            
+        
+
+        circle_marker_90dee7943e7d795bf646d56ad92f1b62.bindPopup(popup_9017579a8a61b740890a69e31f2e1c5e)
+        ;
+
+        
+    
+    
+            var circle_marker_421bad9f22e039c5917b0d3745c25528 = L.circleMarker(
+                [39.9408889, -4.0243312],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#90d18d", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_97d2c2a64e7f3836aea0d07499e407cd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0f9fd82443f48d4e4e13b98b2aff75b4 = $(`<div id="html_0f9fd82443f48d4e4e13b98b2aff75b4" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>11.61%</b><br>Average Monthly Rent: <b>697€</b><br>Price: <b>72,000€</b><br>Rooms: <b>2</b><br>Area: <b>70 m²</b><br><a href='https://www.idealista.com/inmueble/36635409/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_97d2c2a64e7f3836aea0d07499e407cd.setContent(html_0f9fd82443f48d4e4e13b98b2aff75b4);
+            
+        
+
+        circle_marker_421bad9f22e039c5917b0d3745c25528.bindPopup(popup_97d2c2a64e7f3836aea0d07499e407cd)
+        ;
+
+        
+    
+    
+            var circle_marker_6181cadf477c18c80fa75c263189d84d = L.circleMarker(
+                [39.9480066, -3.9883658],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#be151a", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_32ceb155ffe08f7b0b50ca94d6f4be1c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_301d672865b312ad7cfef370be151bae = $(`<div id="html_301d672865b312ad7cfef370be151bae" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>2.11%</b><br>Average Monthly Rent: <b>507€</b><br>Price: <b>289,000€</b><br>Rooms: <b>4</b><br>Area: <b>447 m²</b><br><a href='https://www.idealista.com/inmueble/103030372/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_32ceb155ffe08f7b0b50ca94d6f4be1c.setContent(html_301d672865b312ad7cfef370be151bae);
+            
+        
+
+        circle_marker_6181cadf477c18c80fa75c263189d84d.bindPopup(popup_32ceb155ffe08f7b0b50ca94d6f4be1c)
+        ;
+
+        
+    
+    
+            var circle_marker_b1b5dd87ebc01b6430bbf2c1271a1715 = L.circleMarker(
+                [39.9491408, -3.985386],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feab39", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_940ceda6916d89fe37526abc58c36354 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b31ac3fa25c975f04ffc8ace52f269eb = $(`<div id="html_b31ac3fa25c975f04ffc8ace52f269eb" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>8.53%</b><br>Average Monthly Rent: <b>1,000€</b><br>Price: <b>140,700€</b><br>Rooms: <b>3</b><br>Area: <b>160 m²</b><br><a href='https://www.idealista.com/inmueble/100513790/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_940ceda6916d89fe37526abc58c36354.setContent(html_b31ac3fa25c975f04ffc8ace52f269eb);
+            
+        
+
+        circle_marker_b1b5dd87ebc01b6430bbf2c1271a1715.bindPopup(popup_940ceda6916d89fe37526abc58c36354)
+        ;
+
+        
+    
+    
+            var circle_marker_a79b9b3698dcb911ce5708da9d12ec78 = L.circleMarker(
+                [39.9491408, -3.985386],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ed798", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_d8ec714b2a70ca28d97e4231ff867bbe = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_934dff4b1b2400c30bd57a1c8692b8a1 = $(`<div id="html_934dff4b1b2400c30bd57a1c8692b8a1" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>11.10%</b><br>Average Monthly Rent: <b>1,000€</b><br>Price: <b>108,100€</b><br>Rooms: <b>3</b><br>Area: <b>119 m²</b><br><a href='https://www.idealista.com/inmueble/100513789/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_d8ec714b2a70ca28d97e4231ff867bbe.setContent(html_934dff4b1b2400c30bd57a1c8692b8a1);
+            
+        
+
+        circle_marker_a79b9b3698dcb911ce5708da9d12ec78.bindPopup(popup_d8ec714b2a70ca28d97e4231ff867bbe)
+        ;
+
+        
+    
+    
+            var circle_marker_8b99f57e08a2000c25db67db23b05c7d = L.circleMarker(
+                [39.9386557, -4.0187498],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#de2b25", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_fb7707b1e106795c852ea2c3b4aa7b21 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3a5eee68886ac7fdc001d0bbcf3bc66d = $(`<div id="html_3a5eee68886ac7fdc001d0bbcf3bc66d" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>3.20%</b><br>Average Monthly Rent: <b>688€</b><br>Price: <b>258,000€</b><br>Rooms: <b>5</b><br>Area: <b>356 m²</b><br><a href='https://www.idealista.com/inmueble/102283169/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_fb7707b1e106795c852ea2c3b4aa7b21.setContent(html_3a5eee68886ac7fdc001d0bbcf3bc66d);
+            
+        
+
+        circle_marker_8b99f57e08a2000c25db67db23b05c7d.bindPopup(popup_fb7707b1e106795c852ea2c3b4aa7b21)
+        ;
+
+        
+    
+    
+            var circle_marker_2d65cfe3151cbf051af7b2fc1931e4e1 = L.circleMarker(
+                [39.9384885, -4.0193468],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#67000d", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_e405d2ecdd5c3ad625d1df7ee59b5234 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a2c06a66d388fa9d6c2246b285c8c491 = $(`<div id="html_a2c06a66d388fa9d6c2246b285c8c491" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>-67.76%</b><br>Average Monthly Rent: <b>-9,599€</b><br>Price: <b>170,000€</b><br>Rooms: <b>2</b><br>Area: <b>120 m²</b><br><a href='https://www.idealista.com/inmueble/354583/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_e405d2ecdd5c3ad625d1df7ee59b5234.setContent(html_a2c06a66d388fa9d6c2246b285c8c491);
+            
+        
+
+        circle_marker_2d65cfe3151cbf051af7b2fc1931e4e1.bindPopup(popup_e405d2ecdd5c3ad625d1df7ee59b5234)
+        ;
+
+        
+    
+    
+            var circle_marker_88e242d4be6f85b31f6581d1d2bf7f23 = L.circleMarker(
+                [39.9384885, -4.0193468],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b7e2b1", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_efb5f802f70154770aba9c4755d03ff7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2740e1feab963c5a85696849dc46ecf3 = $(`<div id="html_2740e1feab963c5a85696849dc46ecf3" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>10.03%</b><br>Average Monthly Rent: <b>836€</b><br>Price: <b>100,000€</b><br>Rooms: <b>1</b><br>Area: <b>74 m²</b><br><a href='https://www.idealista.com/inmueble/1648758/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_efb5f802f70154770aba9c4755d03ff7.setContent(html_2740e1feab963c5a85696849dc46ecf3);
+            
+        
+
+        circle_marker_88e242d4be6f85b31f6581d1d2bf7f23.bindPopup(popup_efb5f802f70154770aba9c4755d03ff7)
+        ;
+
+        
+    
+    
+            var circle_marker_4dc14f47776e0e5ba5dc175f5e834301 = L.circleMarker(
+                [39.9384885, -4.0193468],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8ace88", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_20f7290cca61844a5494ec5e04f15143 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ae44af7596b3385701ccc33af3dd4167 = $(`<div id="html_ae44af7596b3385701ccc33af3dd4167" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>11.79%</b><br>Average Monthly Rent: <b>737€</b><br>Price: <b>75,000€</b><br>Rooms: <b>1</b><br>Area: <b>55 m²</b><br><a href='https://www.idealista.com/inmueble/1887546/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_20f7290cca61844a5494ec5e04f15143.setContent(html_ae44af7596b3385701ccc33af3dd4167);
+            
+        
+
+        circle_marker_4dc14f47776e0e5ba5dc175f5e834301.bindPopup(popup_20f7290cca61844a5494ec5e04f15143)
+        ;
+
+        
+    
+    
+            var circle_marker_a6e302be539363ff199d68c5bf6653aa = L.circleMarker(
+                [39.9387073, -4.0210199],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eb372a", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_5ae9379e1d5ec323dff3e28e9664111e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_843fb09eb229b34a43a3c4b2014cfde0 = $(`<div id="html_843fb09eb229b34a43a3c4b2014cfde0" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>3.60%</b><br>Average Monthly Rent: <b>691€</b><br>Price: <b>230,000€</b><br>Rooms: <b>4</b><br>Area: <b>350 m²</b><br><a href='https://www.idealista.com/inmueble/98097147/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_5ae9379e1d5ec323dff3e28e9664111e.setContent(html_843fb09eb229b34a43a3c4b2014cfde0);
+            
+        
+
+        circle_marker_a6e302be539363ff199d68c5bf6653aa.bindPopup(popup_5ae9379e1d5ec323dff3e28e9664111e)
+        ;
+
+        
+    
+    
+            var circle_marker_8ed465e33189d20965788a19432d45d5 = L.circleMarker(
+                [39.9396861, -4.0267677],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c94b02", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_c8777369c040bc5539f8f1667a59e728 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_24a9887643c71d17083937b6eba5dba5 = $(`<div id="html_24a9887643c71d17083937b6eba5dba5" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>5.44%</b><br>Average Monthly Rent: <b>635€</b><br>Price: <b>140,000€</b><br>Rooms: <b>3</b><br>Area: <b>122 m²</b><br><a href='https://www.idealista.com/inmueble/104403114/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_c8777369c040bc5539f8f1667a59e728.setContent(html_24a9887643c71d17083937b6eba5dba5);
+            
+        
+
+        circle_marker_8ed465e33189d20965788a19432d45d5.bindPopup(popup_c8777369c040bc5539f8f1667a59e728)
+        ;
+
+        
+    
+    
+            var circle_marker_45e06ca6800c20ab180b0b32fd50c396 = L.circleMarker(
+                [39.9392597, -4.020841],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00441b", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_3458e4be7b7b9b08142c5891e620faec = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_364f1ce320bbe6d6abacf77fa959b754 = $(`<div id="html_364f1ce320bbe6d6abacf77fa959b754" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>19.03%</b><br>Average Monthly Rent: <b>633€</b><br>Price: <b>39,900€</b><br>Rooms: <b>2</b><br>Area: <b>84 m²</b><br><a href='https://www.idealista.com/inmueble/101980576/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_3458e4be7b7b9b08142c5891e620faec.setContent(html_364f1ce320bbe6d6abacf77fa959b754);
+            
+        
+
+        circle_marker_45e06ca6800c20ab180b0b32fd50c396.bindPopup(popup_3458e4be7b7b9b08142c5891e620faec)
+        ;
+
+        
+    
+    
+            var circle_marker_97402a6de10fd647fea01e5a73117821 = L.circleMarker(
+                [39.9482233, -3.9888852],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7cc87c", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_845b245e529b2f782c02106853b4b84a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4f3b42bceedf2ad7048256e185cd8e81 = $(`<div id="html_4f3b42bceedf2ad7048256e185cd8e81" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>12.32%</b><br>Average Monthly Rent: <b>1,437€</b><br>Price: <b>140,000€</b><br>Rooms: <b>3</b><br>Area: <b>106 m²</b><br><a href='https://www.idealista.com/inmueble/104689843/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_845b245e529b2f782c02106853b4b84a.setContent(html_4f3b42bceedf2ad7048256e185cd8e81);
+            
+        
+
+        circle_marker_97402a6de10fd647fea01e5a73117821.bindPopup(popup_845b245e529b2f782c02106853b4b84a)
+        ;
+
+        
+    
+    
+            var circle_marker_65d26f75d11302ad1dc6ab01772b5959 = L.circleMarker(
+                [39.9390355, -4.0166408],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#febb47", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_f179ac67dbdf662a996e3f0da3f438d1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_848d3eeef2a9c7c0eb94b98afdc73c95 = $(`<div id="html_848d3eeef2a9c7c0eb94b98afdc73c95" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>9.01%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>119,900€</b><br>Rooms: <b>3</b><br>Area: <b>125 m²</b><br><a href='https://www.idealista.com/inmueble/103979160/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_f179ac67dbdf662a996e3f0da3f438d1.setContent(html_848d3eeef2a9c7c0eb94b98afdc73c95);
+            
+        
+
+        circle_marker_65d26f75d11302ad1dc6ab01772b5959.bindPopup(popup_f179ac67dbdf662a996e3f0da3f438d1)
+        ;
+
+        
+    
+    
+            var circle_marker_c4455092c14ee99878a4ec1516a34c65 = L.circleMarker(
+                [39.95082, -3.98875],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f14432", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_d4c34e326e91feff3d65b52a4a1dc157 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_265d4bc1d1a5e65984a5a06a67d72beb = $(`<div id="html_265d4bc1d1a5e65984a5a06a67d72beb" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>4.00%</b><br>Average Monthly Rent: <b>1,000€</b><br>Price: <b>300,000€</b><br>Rooms: <b>4</b><br>Area: <b>235 m²</b><br><a href='https://www.idealista.com/inmueble/93293847/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_d4c34e326e91feff3d65b52a4a1dc157.setContent(html_265d4bc1d1a5e65984a5a06a67d72beb);
+            
+        
+
+        circle_marker_c4455092c14ee99878a4ec1516a34c65.bindPopup(popup_d4c34e326e91feff3d65b52a4a1dc157)
+        ;
+
+        
+    
+    
+            var circle_marker_3f4fef2e76b05a50b89e033517dd0c3d = L.circleMarker(
+                [39.9412663, -4.0179872],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ed7215", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_05c4feaca806fd75aa86620d4ff6eaa4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9e3b90ae60f1b877286aa52d281d9df9 = $(`<div id="html_9e3b90ae60f1b877286aa52d281d9df9" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>6.81%</b><br>Average Monthly Rent: <b>737€</b><br>Price: <b>129,900€</b><br>Rooms: <b>2</b><br>Area: <b>252 m²</b><br><a href='https://www.idealista.com/inmueble/103317274/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_05c4feaca806fd75aa86620d4ff6eaa4.setContent(html_9e3b90ae60f1b877286aa52d281d9df9);
+            
+        
+
+        circle_marker_3f4fef2e76b05a50b89e033517dd0c3d.bindPopup(popup_05c4feaca806fd75aa86620d4ff6eaa4)
+        ;
+
+        
+    
+    
+            var circle_marker_6c9c48dad2ee88a9986766309faa37db = L.circleMarker(
+                [39.9348295, -4.0201059],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#db2824", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_4ad881a7db313370a247d97924f76552 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_06b79e7514796ecdb83ab2913b2add6f = $(`<div id="html_06b79e7514796ecdb83ab2913b2add6f" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>3.07%</b><br>Average Monthly Rent: <b>525€</b><br>Price: <b>205,000€</b><br>Rooms: <b>4</b><br>Area: <b>213 m²</b><br><a href='https://www.idealista.com/inmueble/103809190/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_4ad881a7db313370a247d97924f76552.setContent(html_06b79e7514796ecdb83ab2913b2add6f);
+            
+        
+
+        circle_marker_6c9c48dad2ee88a9986766309faa37db.bindPopup(popup_4ad881a7db313370a247d97924f76552)
+        ;
+
+        
+    
+    
+            var circle_marker_d4102f13779570e97db313d5254c5d0c = L.circleMarker(
+                [39.9393065, -4.0271021],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fea231", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_fd2015efc8124203e24c6ca9ce0d2281 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_24b0f68fcb7f4b273b831a612e6e2f1c = $(`<div id="html_24b0f68fcb7f4b273b831a612e6e2f1c" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>8.25%</b><br>Average Monthly Rent: <b>550€</b><br>Price: <b>79,999€</b><br>Rooms: <b>2</b><br>Area: <b>79 m²</b><br><a href='https://www.idealista.com/inmueble/103824315/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_fd2015efc8124203e24c6ca9ce0d2281.setContent(html_24b0f68fcb7f4b273b831a612e6e2f1c);
+            
+        
+
+        circle_marker_d4102f13779570e97db313d5254c5d0c.bindPopup(popup_fd2015efc8124203e24c6ca9ce0d2281)
+        ;
+
+        
+    
+    
+            var circle_marker_82059389b8149d0c39970adef155fadb = L.circleMarker(
+                [39.9353779, -4.0196228],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c4161c", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_bd2c19a22684ef3c465930b138ff8eaf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fdea9411f9f4f63341142aaafc13f0db = $(`<div id="html_fdea9411f9f4f63341142aaafc13f0db" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>2.29%</b><br>Average Monthly Rent: <b>525€</b><br>Price: <b>275,000€</b><br>Rooms: <b>5</b><br>Area: <b>213 m²</b><br><a href='https://www.idealista.com/inmueble/104244617/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_bd2c19a22684ef3c465930b138ff8eaf.setContent(html_fdea9411f9f4f63341142aaafc13f0db);
+            
+        
+
+        circle_marker_82059389b8149d0c39970adef155fadb.bindPopup(popup_bd2c19a22684ef3c465930b138ff8eaf)
+        ;
+
+        
+    
+    
+            var circle_marker_99770f2aeb8cc1294f425bb77b29e623 = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fe9e2d", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_4a6dcd6dbffea6a2a67ae9473b49b823 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_727393a3508cbdd7762057045ee5c4b6 = $(`<div id="html_727393a3508cbdd7762057045ee5c4b6" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>8.12%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>133,000€</b><br>Rooms: <b>3</b><br>Area: <b>154 m²</b><br><a href='https://www.idealista.com/inmueble/98581546/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_4a6dcd6dbffea6a2a67ae9473b49b823.setContent(html_727393a3508cbdd7762057045ee5c4b6);
+            
+        
+
+        circle_marker_99770f2aeb8cc1294f425bb77b29e623.bindPopup(popup_4a6dcd6dbffea6a2a67ae9473b49b823)
+        ;
+
+        
+    
+    
+            var circle_marker_91cf30885e75eb61092c2b2406f4238e = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4aaf61", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_00c4fb0ab3e5bf7d27aa1bf012673aa6 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_abcf22d6728ae95017001d6b4930d895 = $(`<div id="html_abcf22d6728ae95017001d6b4930d895" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>13.90%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>77,700€</b><br>Rooms: <b>3</b><br>Area: <b>111 m²</b><br><a href='https://www.idealista.com/inmueble/98008419/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_00c4fb0ab3e5bf7d27aa1bf012673aa6.setContent(html_abcf22d6728ae95017001d6b4930d895);
+            
+        
+
+        circle_marker_91cf30885e75eb61092c2b2406f4238e.bindPopup(popup_00c4fb0ab3e5bf7d27aa1bf012673aa6)
+        ;
+
+        
+    
+    
+            var circle_marker_821501e0b17b8d694e5832eee55bc275 = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#289049", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_ec92bf2974158f844db53644cd05da8c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0ac41401e5090edfe97f1fb48c906931 = $(`<div id="html_0ac41401e5090edfe97f1fb48c906931" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>15.54%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>69,500€</b><br>Rooms: <b>3</b><br>Area: <b>115 m²</b><br><a href='https://www.idealista.com/inmueble/98008418/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_ec92bf2974158f844db53644cd05da8c.setContent(html_0ac41401e5090edfe97f1fb48c906931);
+            
+        
+
+        circle_marker_821501e0b17b8d694e5832eee55bc275.bindPopup(popup_ec92bf2974158f844db53644cd05da8c)
+        ;
+
+        
+    
+    
+            var circle_marker_4a96d4bc1952309dd1a609feb48d4f9a = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5db96b", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_5d78ff77044f6a00957aa45352e51cb7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_28c1576fd8fc323376eaf674fdcb6efb = $(`<div id="html_28c1576fd8fc323376eaf674fdcb6efb" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>13.33%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>81,000€</b><br>Rooms: <b>3</b><br>Area: <b>123 m²</b><br><a href='https://www.idealista.com/inmueble/98688891/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_5d78ff77044f6a00957aa45352e51cb7.setContent(html_28c1576fd8fc323376eaf674fdcb6efb);
+            
+        
+
+        circle_marker_4a96d4bc1952309dd1a609feb48d4f9a.bindPopup(popup_5d78ff77044f6a00957aa45352e51cb7)
+        ;
+
+        
+    
+    
+            var circle_marker_4ca8853b8d8dbe9f6891ca344ec728fb = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb643", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_caf1569597ac2811ece6c3699209e75c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_597142d8a459785688afa0c6afe21cde = $(`<div id="html_597142d8a459785688afa0c6afe21cde" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>8.85%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>122,000€</b><br>Rooms: <b>3</b><br>Area: <b>131 m²</b><br><a href='https://www.idealista.com/inmueble/98581526/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_caf1569597ac2811ece6c3699209e75c.setContent(html_597142d8a459785688afa0c6afe21cde);
+            
+        
+
+        circle_marker_4ca8853b8d8dbe9f6891ca344ec728fb.bindPopup(popup_caf1569597ac2811ece6c3699209e75c)
+        ;
+
+        
+    
+    
+            var circle_marker_100b9842a04c29de471afb7b50f09ac3 = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feb23f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_34cdc5b7d390028db62915609781c5a4 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_666bf71753ff2523d56ac4b550760261 = $(`<div id="html_666bf71753ff2523d56ac4b550760261" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>8.71%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>124,000€</b><br>Rooms: <b>3</b><br>Area: <b>136 m²</b><br><a href='https://www.idealista.com/inmueble/98581528/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_34cdc5b7d390028db62915609781c5a4.setContent(html_666bf71753ff2523d56ac4b550760261);
+            
+        
+
+        circle_marker_100b9842a04c29de471afb7b50f09ac3.bindPopup(popup_34cdc5b7d390028db62915609781c5a4)
+        ;
+
+        
+    
+    
+            var circle_marker_0a18cca561d9785e44177002cea02cc3 = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f88a21", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_7e576a73b4a811aa5ad3aa30b3daa9eb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9377931653498949e6254095eaab9e73 = $(`<div id="html_9377931653498949e6254095eaab9e73" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>7.55%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>143,000€</b><br>Rooms: <b>3</b><br>Area: <b>167 m²</b><br><a href='https://www.idealista.com/inmueble/98581527/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_7e576a73b4a811aa5ad3aa30b3daa9eb.setContent(html_9377931653498949e6254095eaab9e73);
+            
+        
+
+        circle_marker_0a18cca561d9785e44177002cea02cc3.bindPopup(popup_7e576a73b4a811aa5ad3aa30b3daa9eb)
+        ;
+
+        
+    
+    
+            var circle_marker_76d2ce704bbcad9850445540cb37dbbd = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b1e0ab", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_b7bf2e3e618eaf8ad441f373c7db99e1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4c383fa6c49eee67ccfa80667bb84da0 = $(`<div id="html_4c383fa6c49eee67ccfa80667bb84da0" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>10.29%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>105,000€</b><br>Rooms: <b>3</b><br>Area: <b>155 m²</b><br><a href='https://www.idealista.com/inmueble/98581530/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_b7bf2e3e618eaf8ad441f373c7db99e1.setContent(html_4c383fa6c49eee67ccfa80667bb84da0);
+            
+        
+
+        circle_marker_76d2ce704bbcad9850445540cb37dbbd.bindPopup(popup_b7bf2e3e618eaf8ad441f373c7db99e1)
+        ;
+
+        
+    
+    
+            var circle_marker_85e149bd25215e5d00870894c6a944c7 = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fed778", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_fafc35a2a3ef8700bdfce7874a9d1871 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2d95e9f6ef4b069db72e7c52ba3f2d53 = $(`<div id="html_2d95e9f6ef4b069db72e7c52ba3f2d53" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>10.00%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>108,000€</b><br>Rooms: <b>3</b><br>Area: <b>172 m²</b><br><a href='https://www.idealista.com/inmueble/98581532/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_fafc35a2a3ef8700bdfce7874a9d1871.setContent(html_2d95e9f6ef4b069db72e7c52ba3f2d53);
+            
+        
+
+        circle_marker_85e149bd25215e5d00870894c6a944c7.bindPopup(popup_fafc35a2a3ef8700bdfce7874a9d1871)
+        ;
+
+        
+    
+    
+            var circle_marker_4dbb9c38d02c321a2fa0e4e49f3fbbf8 = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a8dca2", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_5768c14159599b67e1a8d816d2f1bdf0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_73da60787f50f9edb6dbe6d9163ab157 = $(`<div id="html_73da60787f50f9edb6dbe6d9163ab157" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>10.69%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>101,000€</b><br>Rooms: <b>3</b><br>Area: <b>150 m²</b><br><a href='https://www.idealista.com/inmueble/98581531/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_5768c14159599b67e1a8d816d2f1bdf0.setContent(html_73da60787f50f9edb6dbe6d9163ab157);
+            
+        
+
+        circle_marker_4dbb9c38d02c321a2fa0e4e49f3fbbf8.bindPopup(popup_5768c14159599b67e1a8d816d2f1bdf0)
+        ;
+
+        
+    
+    
+            var circle_marker_03291854aefaee6d24c1631bbdd477ac = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#52b365", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_2546e05b6715feccdb8f0108e3de2348 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_115121736a306b69b898b08d9d03b0fa = $(`<div id="html_115121736a306b69b898b08d9d03b0fa" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>13.67%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>79,000€</b><br>Rooms: <b>3</b><br>Area: <b>97 m²</b><br><a href='https://www.idealista.com/inmueble/98581535/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_2546e05b6715feccdb8f0108e3de2348.setContent(html_115121736a306b69b898b08d9d03b0fa);
+            
+        
+
+        circle_marker_03291854aefaee6d24c1631bbdd477ac.bindPopup(popup_2546e05b6715feccdb8f0108e3de2348)
+        ;
+
+        
+    
+    
+            var circle_marker_3171ca9b07b8861c758ee8eb4797ad5d = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3aa357", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_8abca72cbad664d0ca26cbe6f698425d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4ade064fab48bfb9a22df42bdc5777ba = $(`<div id="html_4ade064fab48bfb9a22df42bdc5777ba" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>14.59%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>74,000€</b><br>Rooms: <b>3</b><br>Area: <b>119 m²</b><br><a href='https://www.idealista.com/inmueble/98581533/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_8abca72cbad664d0ca26cbe6f698425d.setContent(html_4ade064fab48bfb9a22df42bdc5777ba);
+            
+        
+
+        circle_marker_3171ca9b07b8861c758ee8eb4797ad5d.bindPopup(popup_8abca72cbad664d0ca26cbe6f698425d)
+        ;
+
+        
+    
+    
+            var circle_marker_56d209190cb2d54190d745cb7b98cdc0 = L.circleMarker(
+                [39.9408685, -4.0162385],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#88ce87", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_fcc9fa7fc627cdba46732ec9c06e43b1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_77eae4c64bc5238ac1aa3bdd078965d8 = $(`<div id="html_77eae4c64bc5238ac1aa3bdd078965d8" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>11.87%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>91,000€</b><br>Rooms: <b>3</b><br>Area: <b>102 m²</b><br><a href='https://www.idealista.com/inmueble/98581536/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_fcc9fa7fc627cdba46732ec9c06e43b1.setContent(html_77eae4c64bc5238ac1aa3bdd078965d8);
+            
+        
+
+        circle_marker_56d209190cb2d54190d745cb7b98cdc0.bindPopup(popup_fcc9fa7fc627cdba46732ec9c06e43b1)
+        ;
+
+        
+    
+    
+            var circle_marker_6debdcd4606d33b16df857bf34c7ecf5 = L.circleMarker(
+                [39.944069, -4.0151536],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f03d2d", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_21db87efd48a220c3d733d6f13c4ac41 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_db2925d8f81f61029079b23c4876c92c = $(`<div id="html_db2925d8f81f61029079b23c4876c92c" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>3.81%</b><br>Average Monthly Rent: <b>600€</b><br>Price: <b>189,000€</b><br>Rooms: <b>4</b><br>Area: <b>230 m²</b><br><a href='https://www.idealista.com/inmueble/101351791/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_21db87efd48a220c3d733d6f13c4ac41.setContent(html_db2925d8f81f61029079b23c4876c92c);
+            
+        
+
+        circle_marker_6debdcd4606d33b16df857bf34c7ecf5.bindPopup(popup_21db87efd48a220c3d733d6f13c4ac41)
+        ;
+
+        
+    
+    
+            var circle_marker_6dd15853107b4ad6f27e486b7ca99c3a = L.circleMarker(
+                [39.9379044, -4.025245],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e02c26", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_7f783cf3694c60107c2c217a1ed8ac5c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_da15d07e3950254bfac01fcf6e5cdcf9 = $(`<div id="html_da15d07e3950254bfac01fcf6e5cdcf9" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>3.20%</b><br>Average Monthly Rent: <b>550€</b><br>Price: <b>206,000€</b><br>Rooms: <b>4</b><br>Area: <b>246 m²</b><br><a href='https://www.idealista.com/inmueble/98322582/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_7f783cf3694c60107c2c217a1ed8ac5c.setContent(html_da15d07e3950254bfac01fcf6e5cdcf9);
+            
+        
+
+        circle_marker_6dd15853107b4ad6f27e486b7ca99c3a.bindPopup(popup_7f783cf3694c60107c2c217a1ed8ac5c)
+        ;
+
+        
+    
+    
+            var circle_marker_c3c3c2486e9a92114f0a286de9c954a3 = L.circleMarker(
+                [39.9431511, -3.9866289],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f24734", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_7f0acdddf6c0551c2139776e2b9b63ed = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_85a8cb79fb55231216e5e9c72f842a87 = $(`<div id="html_85a8cb79fb55231216e5e9c72f842a87" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>4.06%</b><br>Average Monthly Rent: <b>640€</b><br>Price: <b>189,000€</b><br>Rooms: <b>4</b><br>Area: <b>238 m²</b><br><a href='https://www.idealista.com/inmueble/104643180/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_7f0acdddf6c0551c2139776e2b9b63ed.setContent(html_85a8cb79fb55231216e5e9c72f842a87);
+            
+        
+
+        circle_marker_c3c3c2486e9a92114f0a286de9c954a3.bindPopup(popup_7f0acdddf6c0551c2139776e2b9b63ed)
+        ;
+
+        
+    
+    
+            var circle_marker_4c1f365102d357d54ccb6bd9a672e91f = L.circleMarker(
+                [39.9429517, -3.9869966],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f24734", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_ad201d88e8448fb091583919a8390e5a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_746f3c997f471c71197b989dc0d300df = $(`<div id="html_746f3c997f471c71197b989dc0d300df" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>4.06%</b><br>Average Monthly Rent: <b>640€</b><br>Price: <b>189,000€</b><br>Rooms: <b>4</b><br>Area: <b>233 m²</b><br><a href='https://www.idealista.com/inmueble/104171505/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_ad201d88e8448fb091583919a8390e5a.setContent(html_746f3c997f471c71197b989dc0d300df);
+            
+        
+
+        circle_marker_4c1f365102d357d54ccb6bd9a672e91f.bindPopup(popup_ad201d88e8448fb091583919a8390e5a)
+        ;
+
+        
+    
+    
+            var circle_marker_1bd65b402f7f383726c8ed363bef9173 = L.circleMarker(
+                [39.9351739, -4.0179676],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3161b", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_e9294becc724e063fac590c41d28a3c0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cff1fdeb813b70d2c1b99275411f9a25 = $(`<div id="html_cff1fdeb813b70d2c1b99275411f9a25" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>2.26%</b><br>Average Monthly Rent: <b>525€</b><br>Price: <b>279,000€</b><br>Rooms: <b>4</b><br>Area: <b>170 m²</b><br><a href='https://www.idealista.com/inmueble/103777692/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_e9294becc724e063fac590c41d28a3c0.setContent(html_cff1fdeb813b70d2c1b99275411f9a25);
+            
+        
+
+        circle_marker_1bd65b402f7f383726c8ed363bef9173.bindPopup(popup_e9294becc724e063fac590c41d28a3c0)
+        ;
+
+        
+    
+    
+            var circle_marker_e39f408651186076851a3c0f73a62f4d = L.circleMarker(
+                [39.9410593, -4.0237488],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feaa38", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_f6fc82f72b7569a8c6f0f72b0fe33e99 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6276c6704134d7ba3ee7f16b8133b0c6 = $(`<div id="html_6276c6704134d7ba3ee7f16b8133b0c6" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>8.51%</b><br>Average Monthly Rent: <b>638€</b><br>Price: <b>90,000€</b><br>Rooms: <b>1</b><br>Area: <b>65 m²</b><br><a href='https://www.idealista.com/inmueble/416798/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_f6fc82f72b7569a8c6f0f72b0fe33e99.setContent(html_6276c6704134d7ba3ee7f16b8133b0c6);
+            
+        
+
+        circle_marker_e39f408651186076851a3c0f73a62f4d.bindPopup(popup_f6fc82f72b7569a8c6f0f72b0fe33e99)
+        ;
+
+        
+    
+    
+            var circle_marker_a3c60aee2f4092d799ea9077b6850fdd = L.circleMarker(
+                [39.9395561, -4.0193037],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#db5d0b", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_63103518beee55bfb59ef4bf5350a43c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_993a421f568e32d5b2b82a51c750420d = $(`<div id="html_993a421f568e32d5b2b82a51c750420d" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>6.09%</b><br>Average Monthly Rent: <b>609€</b><br>Price: <b>120,000€</b><br>Rooms: <b>3</b><br>Area: <b>173 m²</b><br><a href='https://www.idealista.com/inmueble/104645933/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_63103518beee55bfb59ef4bf5350a43c.setContent(html_993a421f568e32d5b2b82a51c750420d);
+            
+        
+
+        circle_marker_a3c60aee2f4092d799ea9077b6850fdd.bindPopup(popup_63103518beee55bfb59ef4bf5350a43c)
+        ;
+
+        
+    
+    
+            var circle_marker_1b20c17ae7a6205d4f1b0b20b0654a6b = L.circleMarker(
+                [39.9365565, -4.0194334],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f34c37", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_e487d0bb69a6893a5932d69ab35263a2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_046162ebadb57c6b1de78b749e951a63 = $(`<div id="html_046162ebadb57c6b1de78b749e951a63" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>4.20%</b><br>Average Monthly Rent: <b>525€</b><br>Price: <b>150,000€</b><br>Rooms: <b>3</b><br>Area: <b>140 m²</b><br><a href='https://www.idealista.com/inmueble/103467877/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_e487d0bb69a6893a5932d69ab35263a2.setContent(html_046162ebadb57c6b1de78b749e951a63);
+            
+        
+
+        circle_marker_1b20c17ae7a6205d4f1b0b20b0654a6b.bindPopup(popup_e487d0bb69a6893a5932d69ab35263a2)
+        ;
+
+        
+    
+    
+            var circle_marker_1dd08eafaaca03aff26fd0e651faed60 = L.circleMarker(
+                [39.9495559, -3.9896083],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b94303", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_fa8b258068edb1dc9caf767a66751a76 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_904cd657127f25689523806ef297309f = $(`<div id="html_904cd657127f25689523806ef297309f" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>5.03%</b><br>Average Monthly Rent: <b>1,000€</b><br>Price: <b>238,500€</b><br>Rooms: <b>4</b><br>Area: <b>200 m²</b><br><a href='https://www.idealista.com/inmueble/104660602/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_fa8b258068edb1dc9caf767a66751a76.setContent(html_904cd657127f25689523806ef297309f);
+            
+        
+
+        circle_marker_1dd08eafaaca03aff26fd0e651faed60.bindPopup(popup_fa8b258068edb1dc9caf767a66751a76)
+        ;
+
+        
+    
+    
+            var circle_marker_7d75e452220764bad8c037597ee2ba58 = L.circleMarker(
+                [39.9357515, -4.0175057],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e1640e", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_945aa487e46ad9706fb1640037e76075 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a19d88fb2d07c2d658b7e00f2ffc48a6 = $(`<div id="html_a19d88fb2d07c2d658b7e00f2ffc48a6" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>6.33%</b><br>Average Monthly Rent: <b>525€</b><br>Price: <b>99,500€</b><br>Rooms: <b>2</b><br>Area: <b>61 m²</b><br><a href='https://www.idealista.com/inmueble/35306094/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_945aa487e46ad9706fb1640037e76075.setContent(html_a19d88fb2d07c2d658b7e00f2ffc48a6);
+            
+        
+
+        circle_marker_7d75e452220764bad8c037597ee2ba58.bindPopup(popup_945aa487e46ad9706fb1640037e76075)
+        ;
+
+        
+    
+    
+            var circle_marker_72fb1f23d597b4f82acd67db91d6873e = L.circleMarker(
+                [39.9392842, -4.0140698],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f6861f", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_165507a3ae9a6dc6cff507133013bcb7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_575626c249af0d41ea9cc19be04cc29b = $(`<div id="html_575626c249af0d41ea9cc19be04cc29b" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>7.45%</b><br>Average Monthly Rent: <b>900€</b><br>Price: <b>144,999€</b><br>Rooms: <b>4</b><br>Area: <b>188 m²</b><br><a href='https://www.idealista.com/inmueble/101339872/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_165507a3ae9a6dc6cff507133013bcb7.setContent(html_575626c249af0d41ea9cc19be04cc29b);
+            
+        
+
+        circle_marker_72fb1f23d597b4f82acd67db91d6873e.bindPopup(popup_165507a3ae9a6dc6cff507133013bcb7)
+        ;
+
+        
+    
+    
+            var circle_marker_040ba5b468772ad33ea5818f725e6db5 = L.circleMarker(
+                [39.9089645, -4.0052158],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f6553c", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_877ed8f1cde7961a00b6aa832261e5fb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ae85a2f09b5cd064d92b49ebe48a46f7 = $(`<div id="html_ae85a2f09b5cd064d92b49ebe48a46f7" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>4.44%</b><br>Average Monthly Rent: <b>1,000€</b><br>Price: <b>270,000€</b><br>Rooms: <b>4</b><br>Area: <b>147 m²</b><br><a href='https://www.idealista.com/inmueble/103671001/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_877ed8f1cde7961a00b6aa832261e5fb.setContent(html_ae85a2f09b5cd064d92b49ebe48a46f7);
+            
+        
+
+        circle_marker_040ba5b468772ad33ea5818f725e6db5.bindPopup(popup_877ed8f1cde7961a00b6aa832261e5fb)
+        ;
+
+        
+    
+    
+            var circle_marker_29f7a0aa1e88559e851da1ec69c12051 = L.circleMarker(
+                [39.9437266, -3.9866483],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d65808", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_0faf81a6c5a8a079ec8d7e0375e39127 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3f4f03adcab83324ba0f8b7420154b8b = $(`<div id="html_3f4f03adcab83324ba0f8b7420154b8b" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:green;'>Particular</b><br>Rental Yield: <b>5.91%</b><br>Average Monthly Rent: <b>640€</b><br>Price: <b>130,000€</b><br>Rooms: <b>2</b><br>Area: <b>90 m²</b><br><a href='https://www.idealista.com/inmueble/1612065/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_0faf81a6c5a8a079ec8d7e0375e39127.setContent(html_3f4f03adcab83324ba0f8b7420154b8b);
+            
+        
+
+        circle_marker_29f7a0aa1e88559e851da1ec69c12051.bindPopup(popup_0faf81a6c5a8a079ec8d7e0375e39127)
+        ;
+
+        
+    
+    
+            var circle_marker_367fbb6d3931df41d47da768739d7320 = L.circleMarker(
+                [39.9090928, -4.0031606],
+                {"bubblingMouseEvents": true, "color": "transparent", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e12d26", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_ee59bb92de3a8da016323bebbe659b1c);
+        
+    
+        var popup_e05b660bcc70569f91c4964ad92e037a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_68360a4f7cd8cf7ee1e607e59ad607e9 = $(`<div id="html_68360a4f7cd8cf7ee1e607e59ad607e9" style="width: 100.0%; height: 100.0%;">Offer Type: <b style='color:red;'>Inmobiliaria</b><br>Rental Yield: <b>3.25%</b><br>Average Monthly Rent: <b>1,000€</b><br>Price: <b>369,000€</b><br>Rooms: <b>5</b><br>Area: <b>360 m²</b><br><a href='https://www.idealista.com/inmueble/104159221/' target='_blank'>Link al Inmueble en Idealista</a></div>`)[0];
+                popup_e05b660bcc70569f91c4964ad92e037a.setContent(html_68360a4f7cd8cf7ee1e607e59ad607e9);
+            
+        
+
+        circle_marker_367fbb6d3931df41d47da768739d7320.bindPopup(popup_e05b660bcc70569f91c4964ad92e037a)
+        ;
+
+        
+    
+</script>
+</html>
